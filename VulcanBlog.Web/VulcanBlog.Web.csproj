@@ -39,24 +39,147 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.2.2.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="CookComputing.XmlRpcServerV2">
+      <HintPath>..\packages\xmlrpcnet-server.3.0.0.266\lib\net20\CookComputing.XmlRpcServerV2.dll</HintPath>
+    </Reference>
+    <Reference Include="CookComputing.XmlRpcV2">
+      <HintPath>..\packages\xmlrpcnet.3.0.0.266\lib\net20\CookComputing.XmlRpcV2.dll</HintPath>
+    </Reference>
+    <Reference Include="DataAnnotationsExtensions">
+      <HintPath>..\packages\DataAnnotationsExtensions.1.1.0.0\lib\NETFramework40\DataAnnotationsExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="dotless.Core">
+      <HintPath>..\packages\dotless.1.3.1.0\lib\dotless.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.3.0.13117\lib\net45-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.3.0.13117\lib\net45-full\DotNetOpenAuth.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.3.0.13117\lib\net45-full\DotNetOpenAuth.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.3.0.13117\lib\net45-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.3.0.13117\lib\net45-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.3.0.13117\lib\net45-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
+    <Reference Include="JetBrains.Annotations">
+      <HintPath>..\packages\JetBrains.Annotations.7.0\lib\net45\JetBrains.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="Joel.Net.Akismet">
+      <HintPath>..\Libs\Joel.Net.Akismet\Joel.Net.Akismet.dll</HintPath>
+    </Reference>
+    <Reference Include="MarkdownDeep">
+      <HintPath>..\packages\MarkdownDeep.Full.1.5\lib\.NetFramework 3.5\MarkdownDeep.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Data.Edm, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Data.Edm.5.5.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Data.OData.5.5.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.1\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.30506.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Raven.Abstractions">
       <HintPath>..\packages\RavenDB.Client.2.0.2375\lib\net40\Raven.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Raven.Client.Lightweight">
       <HintPath>..\packages\RavenDB.Client.2.0.2375\lib\net40\Raven.Client.Lightweight.dll</HintPath>
     </Reference>
+    <Reference Include="Raven.Client.MvcIntegration">
+      <HintPath>..\packages\RavenDB.Client.MvcIntegration.2.0.2375\lib\net40\Raven.Client.MvcIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="RazorEngine">
+      <HintPath>..\packages\RazorEngine.3.2.0\lib\net40\RazorEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Recaptcha">
+      <HintPath>..\packages\recaptcha.1.0.5.0\lib\.NetFramework 4.0\Recaptcha.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.1.10\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.1.10\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Spatial, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Spatial.5.5.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.OData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.OData.4.0.30506\lib\net40\System.Web.Http.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -74,104 +197,19 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System.Net.Http">
     </Reference>
-    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
-    </Reference>
     <Reference Include="System.Net.Http.WebRequest">
-    </Reference>
-    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20715.0\lib\net40\System.Web.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    <Reference Include="WebActivatorEx">
+      <HintPath>..\packages\WebActivatorEx.2.0.1\lib\net40\WebActivatorEx.dll</HintPath>
     </Reference>
     <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.20710.0\lib\net40\WebMatrix.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.20710.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
-    </Reference>
-    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.20710.0\lib\net40\WebMatrix.WebData.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.AspNet, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.1.4.12333\lib\net45-full\DotNetOpenAuth.AspNet.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.Core, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OAuth, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OpenId, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http.OData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.OData.4.0.0\lib\net40\System.Web.Http.OData.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.Data.Edm.5.2.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Data.OData, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.Data.OData.5.2.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Spatial, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\System.Spatial.5.2.0\lib\net40\System.Spatial.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
@@ -181,23 +219,138 @@
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.3.0\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.30506.0\lib\net40\WebMatrix.WebData.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="App_Start\BootstrapBundleConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AggresivelyCachingVulcanController.cs" />
+    <Compile Include="Controllers\PostDetailsController.cs" />
+    <Compile Include="Controllers\PostsController.cs" />
+    <Compile Include="Controllers\SectionController.cs" />
+    <Compile Include="Controllers\SocialController.cs" />
+    <Compile Include="Controllers\SyndicationController.cs" />
+    <Compile Include="Controllers\VulcanController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\WelcomeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Attributes\AjaxOnlyAttribute.cs" />
+    <Compile Include="Helpers\Attributes\ValidatePasswordLengthAttribute.cs" />
+    <Compile Include="Helpers\Binders\GuidBinder.cs" />
+    <Compile Include="Helpers\Binders\RemoveSpacesEnumBinder.cs" />
+    <Compile Include="Helpers\CommenterUtil.cs" />
+    <Compile Include="Helpers\DynamicContentHelpers.cs" />
+    <Compile Include="Helpers\HtmlHelperExtensions.cs" />
+    <Compile Include="Helpers\ModelStateExtensions.cs" />
+    <Compile Include="Helpers\RecaptchHelperExtensions.cs" />
+    <Compile Include="Helpers\Results\JsonNetResult.cs" />
+    <Compile Include="Helpers\StaticFileUrlHelperExtensions.cs" />
+    <Compile Include="Helpers\TwitterButtonDataCount.cs" />
+    <Compile Include="Helpers\TwitterExtensions.cs" />
+    <Compile Include="Helpers\UrlHelperExtensions.cs" />
+    <Compile Include="Helpers\Validation\NonEmptyGuidAttribute.cs" />
+    <Compile Include="Helpers\Validation\RecaptchaValidatorWrapper.cs" />
+    <Compile Include="Helpers\Validation\RequiredIfAttribute.cs" />
+    <Compile Include="Helpers\ViewExtensions.cs" />
+    <Compile Include="Infrastructure\Automapper\AutoMapperConfiguration.cs" />
+    <Compile Include="Infrastructure\Automapper\AutoMapperExtensions.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\AbstractProfile.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\EmailViewModelMapperProfile.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\PostsAdminViewModelMapperProfile.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\PostsViewModelMapperProfile.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\PostViewModelMapperProfile.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\Resolvers\DateTimeTypeConverter.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\Resolvers\EmailHashResolver.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\Resolvers\GuidToStringConverter.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\Resolvers\MarkdownResolver.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\Resolvers\MvcHtmlStringConverter.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\Resolvers\RavenIdResolver.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\Resolvers\SanitizeHtml.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\Resolvers\StringToGuidConverter.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\Resolvers\StringToNullableGuidConverter.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\Resolvers\TagsResolver.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\Resolvers\UrlResolver.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\SectionMapperProfile.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\TagsListViewModelMapperProfile.cs" />
+    <Compile Include="Infrastructure\Automapper\Profiles\UserAdminMapperProfile.cs" />
+    <Compile Include="Infrastructure\Common\DateTimeOffsetUtil.cs" />
+    <Compile Include="Infrastructure\Common\DocumentSessionExtensions.cs" />
+    <Compile Include="Infrastructure\Common\DateTimeOffsetExtensions.cs" />
+    <Compile Include="Infrastructure\Common\QueryableExtensions.cs" />
+    <Compile Include="Infrastructure\Common\SlugConverter.cs" />
+    <Compile Include="Infrastructure\Common\Tasks\BackgroundTask.cs" />
+    <Compile Include="Infrastructure\Common\Tasks\TaskExecutor.cs" />
+    <Compile Include="Infrastructure\Indexes\PostComments_CreationDate.cs" />
+    <Compile Include="Infrastructure\Indexes\Posts_ByMonthPublished_Count.cs" />
+    <Compile Include="Infrastructure\Indexes\Posts_Statistics.cs" />
+    <Compile Include="Infrastructure\Indexes\Tags_Count.cs" />
+    <Compile Include="Infrastructure\Tasks\AddCommentTask.cs" />
+    <Compile Include="Infrastructure\Tasks\SendEmailTask.cs" />
+    <Compile Include="Internals\Controllers\RavenController.cs" />
+    <Compile Include="Internals\Extensions\XmlResult.cs" />
+    <Compile Include="Internals\LowercaseRoute.cs" />
+    <Compile Include="Internals\Extensions\RouteCollectionExtension.cs" />
+    <Compile Include="Internals\Models\DynamicContentType.cs" />
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\BlogConfig.cs" />
+    <Compile Include="Models\Section.cs" />
+    <Compile Include="Models\Commenter.cs" />
+    <Compile Include="Models\Model.cs" />
+    <Compile Include="Models\PostComments.cs" />
+    <Compile Include="Models\Post.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AkismetService.cs" />
+    <Compile Include="Services\IMetaWeblog.cs" />
+    <Compile Include="Services\MetaWeblog.cs" />
+    <Compile Include="Services\PostSchedulingStrategy.cs" />
+    <Compile Include="Services\RssModels\BlogInfo.cs" />
+    <Compile Include="Services\RssModels\Category.cs" />
+    <Compile Include="Services\RssModels\CategoryInfo.cs" />
+    <Compile Include="Services\RssModels\WordpressCategory.cs" />
+    <Compile Include="Services\RssModels\Enclosure.cs" />
+    <Compile Include="Services\RssModels\MediaObject.cs" />
+    <Compile Include="Services\RssModels\MediaObjectInfo.cs" />
+    <Compile Include="Services\RssModels\Post.cs" />
+    <Compile Include="Services\RssModels\Source.cs" />
+    <Compile Include="Services\RssModels\UserInfo.cs" />
+    <Compile Include="ViewModels\AdminPostDetailsViewModel.cs" />
+    <Compile Include="ViewModels\CommentInput.cs" />
+    <Compile Include="ViewModels\CurrentUserViewModel.cs" />
+    <Compile Include="ViewModels\FuturePostsViewModel.cs" />
+    <Compile Include="ViewModels\FuturePostViewModel.cs" />
+    <Compile Include="ViewModels\NewCommentEmailViewModel.cs" />
+    <Compile Include="ViewModels\PostReference.cs" />
+    <Compile Include="ViewModels\PostsStatisticsViewModel.cs" />
+    <Compile Include="ViewModels\PostSummaryJson.cs" />
+    <Compile Include="ViewModels\PostsViewModel.cs" />
+    <Compile Include="ViewModels\PostViewModel.cs" />
+    <Compile Include="ViewModels\RecentCommentViewModel.cs" />
+    <Compile Include="ViewModels\SectionDetails.cs" />
+    <Compile Include="ViewModels\TagDetails.cs" />
+    <Compile Include="ViewModels\TagsListViewModel.cs" />
+    <Compile Include="ViewModels\UserInput.cs" />
+    <Compile Include="ViewModels\UserSummeryViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-responsive.css" />
+    <Content Include="Content\bootstrap-responsive.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\glyphicons-halflings-white.png" />
+    <Content Include="Content\images\glyphicons-halflings.png" />
+    <Content Include="Content\themes\base\images\animated-overlay.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -220,12 +373,16 @@
     <Content Include="Content\themes\base\jquery.ui.core.css" />
     <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
     <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.menu.css" />
     <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
     <Content Include="Content\themes\base\jquery.ui.resizable.css" />
     <Content Include="Content\themes\base\jquery.ui.selectable.css" />
     <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.spinner.css" />
     <Content Include="Content\themes\base\jquery.ui.tabs.css" />
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\jquery.ui.tooltip.css" />
+    <Content Include="Content\themes\base\minified\images\animated-overlay.gif" />
     <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -246,28 +403,43 @@
     <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.menu.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.spinner.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.8.2.js" />
-    <Content Include="Scripts\jquery-1.8.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery-ui-1.8.24.js" />
-    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-2.0.2.intellisense.js" />
+    <Content Include="Scripts\jquery-2.0.2.js" />
+    <Content Include="Scripts\jquery-2.0.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.min.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery-2.0.2.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\knockout-2.2.0.debug.js" />
-    <Content Include="Scripts\knockout-2.2.0.js" />
+    <Content Include="Scripts\knockout-2.2.1.debug.js" />
+    <Content Include="Scripts\knockout-2.2.1.js" />
+    <Content Include="Scripts\MarkdownDeep License.txt" />
+    <Content Include="Scripts\MarkdownDeep Quick Reference.txt" />
+    <Content Include="Scripts\MarkdownDeepLib.min.js" />
+    <Content Include="Scripts\mdd_ajax_loader.gif" />
+    <Content Include="Scripts\mdd_gripper.png" />
+    <Content Include="Scripts\mdd_help.htm" />
+    <Content Include="Scripts\mdd_modal_background.png" />
+    <Content Include="Scripts\mdd_styles.css" />
+    <Content Include="Scripts\mdd_toolbar.png" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -308,12 +480,15 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Services\MetaWeblogAPI.ashx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -343,6 +518,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.7\tools\Microsoft.Bcl.Build.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
